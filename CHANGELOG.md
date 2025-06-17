@@ -1,5 +1,21 @@
 # Changelog
 
+## [5.0.0-beta.5](https://github.com/eslint-stylistic/eslint-stylistic/compare/v5.0.0-beta.4...v5.0.0-beta.5) (2025-06-17)
+
+
+### ⚠ BREAKING CHANGES
+
+* handle TS object-like nodes in `object-curly-newline` instead of `brace-style` and `curly-newline` ([#823](https://github.com/eslint-stylistic/eslint-stylistic/issues/823))
+
+### Features
+
+* handle TS object-like nodes in `object-curly-newline` instead of `brace-style` and `curly-newline` ([#823](https://github.com/eslint-stylistic/eslint-stylistic/issues/823)) ([32f743f](https://github.com/eslint-stylistic/eslint-stylistic/commit/32f743f85dd2ef5f9d3625ca3c79864cdf3c572f))
+
+
+### Chores
+
+* release-please-mark ([7240084](https://github.com/eslint-stylistic/eslint-stylistic/commit/72400840f2604e0364047cd600251986863d4d09))
+
 ## [5.0.0-beta.4](https://github.com/eslint-stylistic/eslint-stylistic/compare/v5.0.0-beta.3...v5.0.0-beta.4) (2025-06-17)
 
 
