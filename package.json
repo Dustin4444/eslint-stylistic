@@ -22,7 +22,7 @@
     "play:lint": "pnpm -C playground run lint"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "catalog:",
+    "@antfu/eslint-config": "4.18.0",
     "@antfu/eslint-define-config": "catalog:",
     "@antfu/utils": "catalog:",
     "@babel/eslint-parser": "catalog:test",
@@ -73,7 +73,7 @@
     "tsx": "catalog:",
     "typescript": "catalog:",
     "unbuild": "catalog:",
-    "vite": "catalog:",
+    "vite": "6.3.6",
     "vitest": "catalog:test",
     "vue": "catalog:docs",
     "vue-eslint-parser": "catalog:test",
