@@ -73,7 +73,7 @@
     "tsx": "catalog:",
     "typescript": "catalog:",
     "unbuild": "catalog:",
-    "vite": "catalog:",
+    "vite": "6.4.1",
     "vitest": "catalog:test",
     "vue": "catalog:docs",
     "vue-eslint-parser": "catalog:test",
