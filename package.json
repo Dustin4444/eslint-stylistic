@@ -46,7 +46,7 @@
     "@vitest/ui": "catalog:test",
     "change-case": "catalog:",
     "escape-string-regexp": "catalog:",
-    "eslint": "catalog:",
+    "eslint": "10.0.0",
     "eslint-plugin-format": "catalog:",
     "eslint-visitor-keys": "catalog:",
     "eslint-vitest-rule-tester": "catalog:test",
