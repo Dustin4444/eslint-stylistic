@@ -1,6 +1,6 @@
 /* GENERATED, DO NOT EDIT DIRECTLY */
 
-/* @checksum: 4q_MHCJXCCDAPnzLHlr3tVJatY44E9CkVN9FRtDf-VU */
+/* @checksum: aPUyl_hHy9tKpYY0CXQItQCWKTMQnkS395GsyYTMsws */
 
 export type OverrideConfig = BaseConfig | 'off'
 
@@ -48,7 +48,7 @@ export interface MultiLineConfig {
 export interface BaseConfig {
   empty?: 'ignore' | 'always' | 'never'
   singleLine?: SingleLineConfig
-  multiline?: MultiLineConfig
+  multiLine?: MultiLineConfig
 }
 
 export type ListStyleRuleOptions = [ListStyleSchema0?]

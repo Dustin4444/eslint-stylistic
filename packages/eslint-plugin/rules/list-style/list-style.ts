@@ -60,7 +60,7 @@ export default createRule<RuleOptions, MessageIds>({
                 enum: ['ignore', 'always', 'never'],
               },
               singleLine: { $ref: '#/items/0/$defs/singleLineConfig' },
-              multiline: { $ref: '#/items/0/$defs/multiLineConfig' },
+              multiLine: { $ref: '#/items/0/$defs/multiLineConfig' },
             },
           },
           overrideConfig: {
@@ -174,10 +174,10 @@ export default createRule<RuleOptions, MessageIds>({
             ...overridesByParen.singleLine,
             ...overridesByNode.singleLine,
           },
-          multiline: {
+          multiLine: {
             ...multiLine,
-            ...overridesByParen.multiline,
-            ...overridesByNode.multiline,
+            ...overridesByParen.multiLine,
+            ...overridesByNode.multiLine,
           },
         }
       }
@@ -261,7 +261,7 @@ export default createRule<RuleOptions, MessageIds>({
         return
       }
 
-      if (config.multiline!.minItems === 0)
+      if (config.multiLine!.minItems === 0)
         return
 
       context.report({
@@ -284,7 +284,7 @@ export default createRule<RuleOptions, MessageIds>({
       const needWrap = (
         isSingleLine(node)
           ? len > config.singleLine!.maxItems!
-          : len >= config.multiline!.minItems! && !isTokenOnSameLine(left, items[0] ?? sourceCode.getTokenAfter(left)!)
+          : len >= config.multiLine!.minItems! && !isTokenOnSameLine(left, items[0] ?? sourceCode.getTokenAfter(left)!)
       )
 
       function doCheck(prev: Token, next: Token) {
